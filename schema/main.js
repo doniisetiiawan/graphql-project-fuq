@@ -33,7 +33,7 @@ const queryType = new GraphQLObjectType({
     },
     usersCount: {
       type: GraphQLInt,
-      resolve: (_, args, { db }) => db.collection('users').count(),
+      resolve: (_, args, { db }) => db.collection('users').countDocuments(),
     },
   },
 });
