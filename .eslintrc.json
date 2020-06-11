@@ -11,6 +11,7 @@
   },
   "parser": "babel-eslint",
   "rules": {
-    "no-plusplus": "off"
+    "no-plusplus": "off",
+    "no-console": "off"
   }
 }
